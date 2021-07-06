@@ -1,4 +1,9 @@
-list1 = [12,40,5,100,1]
-print("List: ", list1)
-print("Smallest Number: ",min(list1))
-print("Largest Number: ", max(list1))
+lst = []
+list2 = int(input("Enter the Number: "))
+for i in range(0,list2):
+    num1 = int(input())
+    lst.append(num1)
+print("List:", lst)
+
+print("Smallest Number: ",min(lst))
+print("Largest Number: ", max(lst))
